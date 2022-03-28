@@ -1,130 +1,159 @@
 <div className="container">
-			<div className="row">
-				<h1><b>Preguntas frecuentes</b></h1>
-				<div className="accordion" id="accordionExample">
+	<div className="row">
+		<h1><b>Preguntas frecuentes</b></h1>
+		<div className="accordion" id="accordionExample">
 
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingOne">
-						<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							¿Que es la corrupcion?
-						</button>
-						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-						<div className="accordion-body">
-							Es un fenómeno social, en el cual existen condiciones sistemáticas de apropiación ilegítima del espacio 
-							público para propósitos particulares. 
-						</div>
-						</div>
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="headingOne">
+					<button className="accordion-button" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						¿Que es la corrupcion?
+					</button>	
+				</h2>
+				<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+					data-bs-parent="#accordionExample">
+					<div className="accordion-body">
+						Es un fenómeno social, en el cual existen condiciones sistemáticas de apropiación ilegítima del
+						espacio
+						público para propósitos particulares.
 					</div>
-
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingTwo">
-						<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							¿Ques es la denuncia administrativa?
-						</button>
-						</h2>
-						<div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-						<div className="accordion-body">
-							Es un acto procesal por el que cualquier persona, por escrito o medio electrónico, ante la autoridad administrativa correspondiente, relata hechos posiblemente constitutivos de faltas administrativas cometidas por servidores públicos y, en su caso, por particulares </div>
-						</div>
-					</div>
-
-					<div className="accordion-item">
-						<h2 className="accordion-header" id="headingThree">
-						<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							¿Que es la denuncia penal?
-						</button>
-						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-						<div className="accordion-body">
-							Es un acto procesal por el que cualquier persona, verbalmente o por escrito, ante el Ministerio Público relata hechos posiblemente constitutivos de delito.  </div>
-						</div>
-					</div>
-
-						<div className="accordion-item">
-						<h2 className="accordion-header" id="hedingFor">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
-							¿Que es la denuncia penal?
-							</button>
-						</h2>
-						<div id="collapseFor" className="accordion-collapse collapse" aria-labelledby="headingFor" data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-							Es un acto procesal por el que cualquier persona, verbalmente o por escrito, ante el Ministerio Público relata hechos posiblemente constitutivos de delito.  </div>
-						</div>
-						</div>
-
-						<div className="accordion-item">
-						<h2 className="accordion-header" id="hedingFive">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-							¿Quien puede denunciar?
-							</button>
-						</h2>
-						<div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-							Cualquier persona que tenga conocimiento de una posible falta administrativa o de un delito por hecho de corrupción cometido por algún servidor público o por una persona física o jurídica.
-							</div>
-						</div>
-						</div>
-
-						<div className="accordion-item">
-						<h2 className="accordion-header" id="hedingSix">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-							¿Como se presenta la denuncia?
-							</button>
-						</h2>
-						<div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-							Las denuncias se pueden presentar por escrito o de manera electrónica, si es que la entidad pública cuenta con un sistema. Pueden ser ANÓNIMAS. En su caso, la autoridad mantendrá con carácter de confidencial la identidad del denunciante. Deberán de contener datos o indicios que permitan advertir la presunta responsabilidad.
-						</div>
-						</div>
-						</div>
-
-						<div className="accordion-item">
-						<h2 className="accordion-header" id="hedingSeven">
-							<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-							¿Dónde se presentan las denuncias?
-							</button>
-						</h2>
-						<div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-							<div className="accordion-body">
-							
-								Las denuncias por faltas administrativas se presentan ante los Órganos Internos de Control de la entidad pública en la que labore el servidor público infractor, o en su caso, donde la persona física o jurídica realice la comisión de las faltas señaladas.
-								<br></br>
-								Las denuncias por delitos de hechos de corrupción se presentan ante la Fiscalía Especializada en Combate a la Corrupción.
-								<br></br>  
-								*La solución que propongan permitirá que las denuncias se presenten de manera remota a través de medios electrónicos. 
-							</div>
-						</div>
-						</div>
-						
-					</div>
-			</div>
-			</div>
-
-
-			<div className="container">
-			<div className="row">
-				<h1>Antes de empezar, recuerda que SI puedes y que NO puedes denunciar</h1>
-
-			<div className="card" style="width: 18rem;">
-				<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-				<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				<a href="#" className="card-link">Card link</a>
-				<a href="#" className="card-link">Another link</a>
 				</div>
 			</div>
 
-			<div className="card" style="width: 18rem;">
-				<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-				<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				<a href="#" className="card-link">Card link</a>
-				<a href="#" className="card-link">Another link</a>
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="headingTwo">
+					<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						¿Ques es la denuncia administrativa?
+					</button>
+				</h2>
+				<div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
+					data-bs-parent="#accordionExample">
+					<div className="accordion-body">
+						Es un acto procesal por el que cualquier persona, por escrito o medio electrónico, ante la
+						autoridad administrativa correspondiente, relata hechos posiblemente constitutivos de faltas
+						administrativas cometidas por servidores públicos y, en su caso, por particulares </div>
 				</div>
 			</div>
 
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="headingThree">
+					<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						¿Que es la denuncia penal?
+					</button>
+				</h2>
+				<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+					data-bs-parent="#accordionExample">
+					<div className="accordion-body">
+						Es un acto procesal por el que cualquier persona, verbalmente o por escrito, ante el Ministerio
+						Público relata hechos posiblemente constitutivos de delito. </div>
+				</div>
 			</div>
+
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="hedingFor">
+					<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+						¿Que es la denuncia penal?
+					</button>
+				</h2>
+				<div id="collapseFor" className="accordion-collapse collapse" aria-labelledby="headingFor"
+					data-bs-parent="#accordionExample">
+					<div className="accordion-body">
+						Es un acto procesal por el que cualquier persona, verbalmente o por escrito, ante el Ministerio
+						Público relata hechos posiblemente constitutivos de delito. </div>
+				</div>
 			</div>
+
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="hedingFive">
+					<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+						¿Quien puede denunciar?
+					</button>
+				</h2>
+				<div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
+					data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						Cualquier persona que tenga conocimiento de una posible falta administrativa o de un delito por
+						hecho de corrupción cometido por algún servidor público o por una persona física o jurídica.
+					</div>
+				</div>
+			</div>
+
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="hedingSix">
+					<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+						¿Como se presenta la denuncia?
+					</button>
+				</h2>
+				<div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
+					data-bs-parent="#accordionExample">
+					<div className="accordion-body">
+						Las denuncias se pueden presentar por escrito o de manera electrónica, si es que la entidad
+						pública cuenta con un sistema. Pueden ser ANÓNIMAS. En su caso, la autoridad mantendrá con
+						carácter de confidencial la identidad del denunciante. Deberán de contener datos o indicios que
+						permitan advertir la presunta responsabilidad.
+					</div>
+				</div>
+			</div>
+
+			<div className="accordion-item">
+				<h2 className="accordion-header" id="hedingSeven">
+					<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+						¿Dónde se presentan las denuncias?
+					</button>
+				</h2>
+				<div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven"
+					data-bs-parent="#accordionExample">
+					<div className="accordion-body">
+
+						Las denuncias por faltas administrativas se presentan ante los Órganos Internos de Control de la
+						entidad pública en la que labore el servidor público infractor, o en su caso, donde la persona
+						física o jurídica realice la comisión de las faltas señaladas.
+						<br></br>
+						Las denuncias por delitos de hechos de corrupción se presentan ante la Fiscalía Especializada en
+						Combate a la Corrupción.
+						<br></br>
+						*La solución que propongan permitirá que las denuncias se presenten de manera remota a través de
+						medios electrónicos.
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div className="container">
+	<div className="row">
+		<h1>Antes de empezar, recuerda que SI puedes y que NO puedes denunciar</h1>
+
+		<div className="card" style="width: 18rem;">
+			<div className="card-body">
+				<h5 className="card-title">Card title</h5>
+				<h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+				<p className="card-text">Some quick example text to build on the card title and make up the bulk of the
+					card's content.</p>
+				<a href="#" className="card-link">Card link</a>
+				<a href="#" className="card-link">Another link</a>
+			</div>
+		</div>
+
+		<div className="card" style="width: 18rem;">
+			<div className="card-body">
+				<h5 className="card-title">Card title</h5>
+				<h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+				<p className="card-text">Some quick example text to build on the card title and make up the bulk of the
+					card's content.</p>
+				<a href="#" className="card-link">Card link</a>
+				<a href="#" className="card-link">Another link</a>
+			</div>
+		</div>
+
+	</div>
+</div>

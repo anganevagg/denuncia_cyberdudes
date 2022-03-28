@@ -2,11 +2,11 @@ import React from "react"
 import Navbar from "./Navbar"
 
 
-class Generates extends React.Component{
-	constructor(){
+class Generates extends React.Component {
+	constructor() {
 		super()
 	}
-	render(){
+	render() {
 		return <>
 			<Navbar></Navbar>
 			<div className="card1">
@@ -113,9 +113,9 @@ class Generates extends React.Component{
 					</div>
 				</div>
 			</div>
-			
+
 		</>
-		
+
 	}
 }
 

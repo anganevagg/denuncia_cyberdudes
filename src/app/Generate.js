@@ -131,7 +131,7 @@ class Generate extends React.Component {
 				</div>
 			</div>
 		</div>
-		<input type="submit" placeholder="Denunciar" value="Denunciar"></input>
+		<input className="btn btn-primary" type="submit" placeholder="Denunciar" value="Denunciar"></input>
 		</form>
 		</>
 	}

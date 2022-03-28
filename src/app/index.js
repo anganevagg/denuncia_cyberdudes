@@ -9,15 +9,15 @@ import {
 	Routes,
 	Route,
 	Link
-  } from "react-router-dom"
+} from "react-router-dom"
 
-  ReactDOM.render(
+ReactDOM.render(
 	<Router>
 		<Routes>
-		<Route path="/" element={<App/>} exact />
-		  <Route path="/generate" element={<Generate/>} />
-		  <Route path="/generates" element={<Generates/>} />
-		  <Route path="/information" element={<Information/>} />
+			<Route path="/" element={<App />} exact />
+			<Route path="/generate" element={<Generate />} />
+			<Route path="/generates" element={<Generates />} />
+			<Route path="/information" element={<Information />} />
 		</Routes>
 	</Router>
 	, document.getElementById('app'))

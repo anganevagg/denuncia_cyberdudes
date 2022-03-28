@@ -2,14 +2,14 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { Link } from "react-router-dom"
 
-class Navbar extends React.Component{
-	constructor(){
+class Navbar extends React.Component {
+	constructor() {
 		super()
 	}
-	render(){
+	render() {
 		return <>
-			<div className = "navi">
-				<div className = "menu">
+			<div className="navi">
+				<div className="menu">
 					<nav className="navbar navbar-expand-lg navbar-light bg-light">
 						<a className="navbar-brand" href="#"><strong>Denuncia Ciudadana</strong></a>
 						<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
